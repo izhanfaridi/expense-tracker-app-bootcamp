@@ -42,4 +42,4 @@ jobs:
         run: npm install --global surge
       
       - name: Deploy to Surge
-        run: surge ./build expense-tracker-app-bootcamp --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build expense-tracker-app-bootcamp-izhanfaridi.surge.sh --token ${{secrets.SURGE_TOKEN}}
